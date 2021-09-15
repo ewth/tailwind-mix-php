@@ -10,8 +10,6 @@ npm install ewth/tailwind-mix-php
 
 ## Usage
 
-```
-
 In your `webpack.mix.js`, load the plugin and add it to Mix:
 
 ```
