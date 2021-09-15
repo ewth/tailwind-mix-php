@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-mix-php",
+  "version": "1.0.0",
+  "description": "Simple Laravel Mix/Webpack plugin to generate TailwindCSS configuration to PHP on build",
+  "main": "index.js",
+  "scripts": {
+    "test": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewth/tailwind-mix-php.git"
+  },
+  "keywords": [
+    "tailwind",
+    "mix",
+    "webpack",
+    "php",
+    "npm"
+  ],
+  "author": "Ewan Thompson <contact@ewan.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewth/tailwind-mix-php/issues"
+  },
+  "homepage": "https://github.com/ewth/tailwind-mix-php#readme"
+}
