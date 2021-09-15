@@ -1,13 +1,11 @@
+'use strict';
+
 let mix = require('laravel-mix');
 const exec = require('child_process').exec;
 
 class TailwindPhp {
     twConfig = 'tailwind.config.js';
     phpOutput = 'tailwind.config.php';
-
-    name() {
-        return 'tailwindphp';
-    }
 
     register(twConfig, phpOutput) {
         this.twConfig = twConfig;
@@ -30,3 +28,5 @@ class TailwindPhp {
 }
 
 mix.extend('tailwindphp', new TailwindPhp());
+
+module.exports = TailwindPhp;
