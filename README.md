@@ -2,6 +2,12 @@
 
 This is a simple plugin for Laravel Mix that allows TailwindCSS configuration to be written to a PHP file after compilation.
 
+## Easy Turbo
+
+Turns out the Laravel Mix plugins don't work this way. Or at least it's not working at the minute. To be continued...
+
+**That is to say, don't use this at the moment.**
+
 ## Installation
 
 ```
